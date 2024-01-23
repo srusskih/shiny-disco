@@ -5,6 +5,12 @@ Open http://127.0.0.1:8000/docs to see the API documentation.
 
 ## Run
 
+Create an `.env` file with the following content in top `service` folder:
+```shell
+HuggingFaceHub_API_Token=<YOUR_TOKEN_HERE>
+```
+
+
 Install
 ```shell
 docker-compose up -d --wait
